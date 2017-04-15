@@ -1,3 +1,5 @@
+# See also scrape_weather.ipynb
+
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
