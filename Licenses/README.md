@@ -1,0 +1,8 @@
+This directory contains the data files and Jupyter notebook needed to match the restaurants in our dataset with liquor and/or sidewalk cafe licenses.
+
+Before running the **Incorporate_Liquor_License.ipynb** notebook, please download the following files:
+* **Liquor_Authority_Quarterly_List_of_Active_Licenses.csv** Available in this repo at https://github.com/jchelmers/urban-data-project/tree/master/Licenses. Most up-to-date version available at https://data.ny.gov/Economic-Development/Liquor-Authority-Quarterly-List-of-Active-Licenses/hrvs-fxs2/. This file should be downloaded into the same directory as the notebook.
+* **Sidewalk_Caf__Licenses_and_Applications.csv** Available in this repo at: https://github.com/jchelmers/urban-data-project/tree/master/Licenses. Most up-to-date version: https://data.cityofnewyork.us/Business/Sidewalk-Caf-Licenses-and-Applications/qcdj-rwhu. This file should be downloaded into the same directory as the notebook.
+* **health_inspect_cleaned_loc_added.csv** Available in this repo at https://github.com/jchelmers/urban-data-project/tree/master/Geocoding. When you download this file, please retain the directory structure of the GitHub, i.e. this file should be downloaded into a directory named Geocoding located at ../Geocoding relative to this directory.
+
+The notebook will create a CSV named **health_inspect_loc_license.csv** in the working directory. This file contains the cleaned restaurant dataset, including latitude and longitude, with additional columns for the liquor license and sidewalk cafe license information.
