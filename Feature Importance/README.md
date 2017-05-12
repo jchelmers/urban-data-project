@@ -1,0 +1,2 @@
+This directory contains the Jupyter notebook needed to generate the feature importance graphs used in our report. Before running the **Plot_Feature_Importances.ipynb** notebook, please download the following file:
+* **violations_all.csv**. Available in this repo at: https://github.com/jchelmers/urban-data-project. When you download this file, please retain the directory structure of the GitHub, i.e. this file should be downloaded into the parent directory of the directory containing this notebook.
