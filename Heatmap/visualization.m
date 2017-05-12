@@ -4,7 +4,7 @@
 %read the data
  
 ds = datastore(...
-    'RF_testset_w_confusionmatrix.csv', ...         % wild card char *
+    'RF_testset_for_heatmap', ...         % wild card char *
     'ReadVariableNames',false, ...                      % ignore header
     'VariableNames',{'Lat','Lon','tp','fp','fn' }); 
 ds.NumHeaderLines = 1;                                  % has header line
