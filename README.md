@@ -6,7 +6,7 @@ For our project, we predicted the probability of a New York City restaurant exhi
 
 Each subfolder contains a README with instructions on how to replicate our results.
 
-Gropu members:
-Seda Bilaloglu
-Julie Helmers
-Jonathan Toy
+Group members:
+* Seda Bilaloglu
+* Julie Helmers
+* Jonathan Toy
